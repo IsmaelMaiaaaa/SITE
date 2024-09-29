@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArteVibesStudio - Caricaturas digitais, montagens e junção de fotos, entregues no mesmo dia!">
+    <title>ArteVibesStudio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #25D366; /* Cor do fundo do WhatsApp */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .whatsapp {
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #075E54; /* Cor do WhatsApp */
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            animation: pulse 2s infinite;
+        }
+        .whatsapp:hover {
+            background-color: #128C7E; /* Cor do WhatsApp ao passar o mouse */
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 400px; /* Limite de largura para dispositivos móveis */
+            position: relative;
+        }
+        .carousel-track {
+            display: flex;
+            transition: transform 1.6s ease-in-out;
+        }
+        .carousel div {
+            min-width: 100%;
+        }
+        .carousel img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .description {
+            text-align: center;
+            margin: 20px;
+        }
+        .description p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .description strong {
+            color: #25D366; /* Cor para destacar preços */
+            font-size: 1.3em;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            .description p {
+                font-size: 1em;
+                padding: 0 10px;
+            }
+            .carousel img {
+                border-radius: 5px; /* Ajuste em telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ArteVibesStudio</h1>
+    <p>🤩 ENTREGO NO MESMO DIA 🤩</p>
+    <a class="whatsapp" href="https://wa.me/message/WBK3IXSOBU4YA1">➡️Fale Comigo no WhatsApp📲</a>
+</header>
+
+<div class="carousel">
+    <div class="carousel-track">
+        <div>
+            <img src="https://i.imgur.com/pQrfFru.jpeg" alt="Caricatura digital personalizada de uma pessoa sorrindo" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/iJJsxZn.jpeg" alt="Caricatura digital personalizada de uma família" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/pQrfFru.jpeg" alt="Caricatura digital personalizada de uma pessoa sorrindo" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/iJJsxZn.jpeg" alt="Caricatura digital personalizada de uma família" loading="lazy">
+        </div>
+    </div>
+</div>
+
+<div class="description">
+    <p><strong>Caricatura Digital:</strong> A partir de R$ 15,00 ⚡ ENTREGO NO MESMO DIA 🤩</p>
+    <a class="whatsapp" href="https://wa.me/message/WBK3IXSOBU4YA1">➡️Fale Comigo no WhatsApp📲</a>
+</div>
+
+<div class="carousel">
+    <div class="carousel-track">
+        <div>
+            <img src="https://i.imgur.com/ik7YIvl.jpeg" alt="Montagem de Fotos de uma paisagem com pessoas" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/rMELeit.jpeg" alt="Montagem de Fotos criativa com elementos abstratos" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/ik7YIvl.jpeg" alt="Montagem de Fotos de uma paisagem com pessoas" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/rMELeit.jpeg" alt="Montagem de Fotos criativa com elementos abstratos" loading="lazy">
+        </div>
+    </div>
+</div>
+
+<div class="description">
+    <p><strong>Montagem de Fotos:</strong> A partir de R$ 25,00 ⚡ ENTREGO NO MESMO DIA 🤩</p>
+    <a class="whatsapp" href="https://wa.me/message/WBK3IXSOBU4YA1">➡️Fale Comigo no WhatsApp📲</a>
+</div>
+
+<div class="carousel">
+    <div class="carousel-track">
+        <div>
+            <img src="https://i.imgur.com/jBlgJcr.jpeg" alt="Foto com montagem de uma pessoa com Jesus" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/Vth3jQu.jpeg" alt="Foto com montagem criativa de Jesus ao lado de uma pessoa" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/jBlgJcr.jpeg" alt="Foto com montagem de uma pessoa com Jesus" loading="lazy">
+        </div>
+        <div>
+            <img src="https://i.imgur.com/Vth3jQu.jpeg" alt="Foto com montagem criativa de Jesus ao lado de uma pessoa" loading="lazy">
+        </div>
+    </div>
+</div>
+
+<div class="description">
+    <p><strong>Junção de Fotos:</strong> A partir de R$ 30,00 ⚡ ENTREGO NO MESMO DIA 🤩</p>
+    <a class="whatsapp" href="https://wa.me/message/WBK3IXSOBU4YA1">➡️Fale Comigo no WhatsApp📲</a>
+</div>
+
+<script>
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach(carousel => {
+        const track = carousel.querySelector('.carousel-track');
+        const items = carousel.querySelectorAll('div');
+        let currentIndex = 0;
+
+        function showNextImage() {
+            currentIndex++;
+            const offset = -currentIndex * 100; // Move a 100% para a esquerda a cada troca
+            track.style.transform = `translateX(${offset}%)`;
+
+            if (currentIndex >= items.length / 2) {
+                setTimeout(() => {
+                    track.style.transition = 'none'; // Desativa a animação
+                    currentIndex = 0; // Volta ao início
+                    track.style.transform = 'translateX(0)'; // Volta instantaneamente para a primeira imagem
+                    setTimeout(() => {
+                        track.style.transition = 'transform 1.6s ease-in-out'; // Reativa a animação
+                    }, 20); // Pequeno atraso para garantir a suavidade
+                }, 1600); // Delay igual ao tempo de rotação
+            }
+        }
+
+        setInterval(showNextImage, 1600); // A cada 1,6 segundos
+    });
+</script>
+
+</body>
+</html>
